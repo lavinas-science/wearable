@@ -38,7 +38,7 @@ rm(activity_names)
 library(dplyr)
 tidy <- group_by(tidy, activity, subject)
 tidy_2 <- summarize_all(tidy, .funs = mean)
-write.table(tidy_2, './result/tidy_2.txt')
+write.table(tidy_2, './result/tidy_2.txt', row.name = FALSE)
 
 
 

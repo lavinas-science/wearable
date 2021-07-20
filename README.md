@@ -42,4 +42,4 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Dataset output/result
 
-Output file of this project is on ./result directory, file tidy_2.txt and tidy_2.csv.
+Output file of this project is on ./result directory, file tidy_2.txt.
